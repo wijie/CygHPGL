@@ -1,0 +1,56 @@
+ %% このﾌｧｲﾙを変更したり、削除したりしないでください。 %% 
+ %% このﾌｧｲﾙには、ｱﾌﾟﾘｹｰｼｮﾝのｾｯﾄｱｯﾌﾟに関する情報が入っています。 %% 
+ %% このﾌｧｲﾙの情報は、ｱﾌﾟﾘｹｰｼｮﾝ削除ﾕｰﾃｨﾘﾃｨで関連ｺﾝﾎﾟｰﾈﾝﾄを自動的に削除するときに使用されます。 %% 
+
+
+NOTE: ﾌﾞｰﾄｽﾄﾗｯﾌﾟ ｾｸｼｮﾝの先頭
+
+CONFIG: Title: "NC2HPGL"
+
+ACTION: RegKey: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion", "SharedDLLs"
+
+ACTION: SystemFile: "C:\WINNT\SYSTEM32\VB6STKIT.DLL"
+(既に最新のﾌｧｲﾙがﾃﾞｨｽｸに存在します。)
+
+ACTION: SystemFile: "C:\WINNT\SYSTEM32\vb6jp.dll"
+(既に最新のﾌｧｲﾙがﾃﾞｨｽｸに存在します。)
+
+ACTION: SystemFile: "C:\WINNT\SYSTEM32\COMCAT.DLL"
+(既に最新のﾌｧｲﾙがﾃﾞｨｽｸに存在します。)
+
+ACTION: SystemFile: "C:\WINNT\SYSTEM32\STDOLE2.TLB"
+(既に最新のﾌｧｲﾙがﾃﾞｨｽｸに存在します。)
+
+ACTION: SystemFile: "C:\WINNT\SYSTEM32\ASYCFILT.DLL"
+(既に最新のﾌｧｲﾙがﾃﾞｨｽｸに存在します。)
+
+ACTION: SystemFile: "C:\WINNT\SYSTEM32\OLEPRO32.DLL"
+(既に最新のﾌｧｲﾙがﾃﾞｨｽｸに存在します。)
+
+ACTION: SystemFile: "C:\WINNT\SYSTEM32\OLEAUT32.DLL"
+(既に最新のﾌｧｲﾙがﾃﾞｨｽｸに存在します。)
+
+ACTION: SystemFile: "C:\WINNT\SYSTEM32\msvbvm60.dll"
+(既に最新のﾌｧｲﾙがﾃﾞｨｽｸに存在します。)
+
+ACTION: DllSelfRegister: "C:\WINNT\SYSTEM32\COMCAT.DLL"
+
+ACTION: TLBRegister: "C:\WINNT\SYSTEM32\STDOLE2.TLB"
+
+ACTION: DllSelfRegister: "C:\WINNT\SYSTEM32\OLEPRO32.DLL"
+
+ACTION: DllSelfRegister: "C:\WINNT\SYSTEM32\OLEAUT32.DLL"
+
+ACTION: DllSelfRegister: "C:\WINNT\SYSTEM32\msvbvm60.dll"
+
+NOTE: ﾌﾞｰﾄｽﾄﾗｯﾌﾟ ｾｸｼｮﾝの末尾
+
+NOTE: ｾｯﾄｱｯﾌﾟ ﾌﾟﾛｸﾞﾗﾑ 'Setup1.exe' を起動しています....
+
+ACTION: PrivateFile: "C:\usr\local\CygHPGL\NC2HPGL.exe"
+(ﾌｧｲﾙが存在しないか、古いﾊﾞｰｼﾞｮﾝのﾌｧｲﾙです。新しいﾌｧｲﾙがｺﾋﾟｰされました。)
+
+ACTION: RegKey: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion", "App Paths\NC2HPGL.exe"
+
+ACTION: RegValue: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\NC2HPGL.exe", ""
+
